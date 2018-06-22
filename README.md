@@ -1,0 +1,2 @@
+# NewBot
+Bot discord 
