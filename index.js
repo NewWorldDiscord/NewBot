@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 var prefix = "*";
 
-client.login("NDU5NDA2MTg1MDcwODU0MTU5.Dg16Qw.MpEAXVgLHctt8YuTT851l6YLllk");
+client.login(process.env.TOKEN);
 
 client.on("ready", () => {
     console.log("Je suis pret !")
